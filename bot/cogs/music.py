@@ -300,14 +300,14 @@ class Music(commands.Cog, wavelink.WavelinkMixin):
     async def start_nodes(self):
         await self.bot.wait_until_ready()
 
-        nodes = {
-            "MAIN": {
-                "host": "127.0.0.1",
-                "port": 2333,
-                "rest_uri": "http://127.0.0.1:2333",
+        nodes = {"MAIN": 
+            {
+                "host": "lavalink1122.herokuapp.com",
+                "port": 80,
+                "rest_url": "https://lavalink1122.herokuapp.com",
                 "password": "youshallnotpass",
                 "identifier": "MAIN",
-                "region": "europe",
+                "region": "europe"
             }
         }
 

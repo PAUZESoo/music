@@ -1,6 +1,6 @@
 server: # REST and WS server
-  port: 2333
-  address: 127.0.0.1
+  port: 80
+  address: lavalink1122.herokuapp.com
 lavalink:
   server:
     password: "youshallnotpass"
