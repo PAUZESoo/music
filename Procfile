@@ -1,2 +1,2 @@
-worker.1: python launcher.py
-worker.2: java -jar Lavalink.jar
+worker: python launcher.py
+process: java -jar Lavalink.jar
