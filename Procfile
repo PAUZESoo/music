@@ -1,2 +1,2 @@
 worker: python launcher.py
-web: java -jar config/Lavalink.jar
+worker: java -jar config/Lavalink.jar
