@@ -304,7 +304,7 @@ class Music(commands.Cog, wavelink.WavelinkMixin):
             {
                 "host": "lavalink1122.herokuapp.com",
                 "port": 80,
-                "rest_url": "https://lavalink1122.herokuapp.com",
+                "rest_url": "http://lavalink1122.herokuapp.com",
                 "password": "youshallnotpass",
                 "identifier": "MAIN",
                 "region": "europe"
