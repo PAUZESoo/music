@@ -340,7 +340,7 @@ class Music(commands.Cog, wavelink.WavelinkMixin):
         embed.add_field(name="+스킵 숫자", value="원하는 순서의 곡을 재생해줍니다. 예시)+스킵 2(목록에서 두번째 곡 재생)", inline=False)
         embed.add_field(name="+재시작", value="현재 재생되는 곡을 재시작 합니다.", inline=False)
         embed.add_field(name="+이동 숫자", value="현재 재생되는 곡의 원하는 시간부터 재생해줍니다. 예시)+이동 1:00", inline=False)
-
+        await ctx.send(embed)
 
     @commands.command(name="연결", aliases=["join"])
     async def connect_command(self, ctx, *, channel: t.Optional[discord.VoiceChannel]):
