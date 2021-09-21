@@ -64,7 +64,6 @@ class MusicBot(commands.Bot):
 
     async def on_ready(self):
         self.client_id = (await self.application_info()).id
-        subprocess.call('java -jar .\Lavalink.jar', creationflags=subprocess.CREATE_NEW_CONSOLE)
         print("Bot ready.")
 
     async def prefix(self, bot, msg):
