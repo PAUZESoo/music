@@ -23,15 +23,15 @@ class MusicBot(commands.Bot):
 
         print("Setup complete.")
 
-    #def lavalink(self):
-    #    self.setup()
-    #    subprocess.Popen('java -jar .\Lavalink.jar', creationflags=subprocess.CREATE_NEW_CONSOLE)
-             
-    #    print("lavalink on")
+    def lavalink(self):
+        self.setup()
+        subprocess.Popen('java -jar .\Lavalink.jar', creationflags=subprocess.CREATE_NEW_CONSOLE)
+            
+        print("lavalink on")
       
         
     def run(self):
-        self.setup()
+        self.lavalink()
  
         print("Running bot...")
         
